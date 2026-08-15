@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Project data and outputs
+outputs/
+predicted_images/
+predicted_masks_only/
+cropped_cells_dataset/
+*.pth
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Git
+.git/
